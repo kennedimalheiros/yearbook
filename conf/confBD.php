@@ -9,7 +9,7 @@
    
 	$usuario = "pucminas";
    
-	$senha = "pucatividade";
+	$senha = "PucAtividade5";
    
 	try{
      
