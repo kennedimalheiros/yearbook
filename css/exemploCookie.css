@@ -1,0 +1,131 @@
+body {
+     font-family: "Trebuchet MS", Verdana, Arial;
+     font-size: 10pt;
+     background-color: white;
+     color: black;
+}
+
+h1{
+   font-size: 18pt;
+   width:100%;
+}
+
+.centro{
+   text-align:center;
+}
+
+table{
+    font-size: 10pt;
+    width:100%;
+}
+th {
+   background-color: #BDFBCB;
+   font-size: 12pt;
+   color: black;
+   cell-spacing: 1px;
+}
+
+td{
+   background-color: #D0D0D0;
+   color: black;
+   cell-spacing: 1px;
+}
+
+a:link, a:visited{
+     color: black;
+     text-decoration: none;
+}
+
+a:hover, a:active{
+    color: #800000;
+    text-decoration: underline;
+}
+
+input {
+  border: 1px solid;
+}
+
+ul {
+  list-style:none;
+  margin: 0;
+  width:100%;
+  padding: 2px;
+}
+
+li.menuprinc{
+  background-color: #FFC0C0;
+  color: white;
+  border: 1px solid white;
+  padding: 1px;
+  margin:0;
+  width:100%;
+}
+
+li.menusub{
+  background-color: #D0D0D0;
+  color: black;
+  border: 1px solid black;
+  padding: 1px;
+  margin:0;
+  width:100%;
+}
+label.lblform {
+   float: left;
+   width: 100px
+}
+
+div.aviso {
+    position:absolute;
+    background-color:#BDFBCB;
+    color: black;
+    width:300px;
+   /* height: 80px; */
+    -moz-border-radius-topleft: 1.0em;
+    -moz-border-radius-topright: 1.0em;
+    -moz-border-radius-bottomleft: 1.0em;
+    -moz-border-radius-bottomright: 1.0em;
+    border-radius: 1.0em;
+    left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: -40px;
+    padding-top: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#cabecalho{
+   position: absolute;
+   background-color: #FFFFC0;
+   color: black;
+   top:0;
+   left:0;
+   width:100%;
+   height: 100px;
+}
+
+#menu{
+  position: absolute;
+  background-color: #C0FFFF;
+  color: black;
+  top: 100;
+  height:400;
+  left:0;
+  width: 150;
+  margin:0;
+  padding-top: 50;
+  border-bottom: 1px solid black;
+
+}
+
+#principal{
+  position: absolute;
+  background-color: white;
+  color: black;
+  top:100;
+  padding-top: 50;
+  left: 150;
+  right:0;
+  height:400;
+  border-bottom: 1px solid black;
+}

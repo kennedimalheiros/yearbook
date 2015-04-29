@@ -1,0 +1,66 @@
+table{
+ border-collapse: collapse;
+ border: 2px solid;
+}
+
+td{
+border: 1px solid;
+}
+
+body{
+  font-family: Verdana, Arial;
+  font-size: 14pt;
+}
+
+input{
+   color:#050;
+   font-family:'trebuchet ms',helvetica,sans-serif;
+   font-size:84%;
+   font-weight:bold;
+   background-color:#fed;
+   border:1px solid;
+   border-top-color:#696;
+   border-left-color:#696;
+   border-right-color:#363;
+   border-bottom-color:#363;
+}
+
+div p{
+       height: 25px;
+       margin-top:10px;
+       margin-bottom:10px;
+}
+
+.hint p{
+      visibility:hidden;
+      background-color:#FFFFC0;
+}
+#rotulos{
+   position: absolute;
+   top: 100;
+   text-align: right;
+   margin-left: 100;
+   width: 300;
+   margin-right:0;
+   padding:5px;
+}
+
+#campos{
+   position: absolute;
+   top: 100;
+   left: 420;
+   text-align: left;
+   margin-left:0;
+   padding:5px;
+   width: 300;
+}
+#dicas{
+position: absolute;
+   top: 100;
+   left: 580;
+   text-align: left;
+   margin-left:0;
+   padding:5px;
+   width: 300;
+}
+   

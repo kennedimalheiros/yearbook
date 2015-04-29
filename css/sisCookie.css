@@ -1,0 +1,176 @@
+body {
+     font-family: "Trebuchet MS", Verdana, Arial;
+     font-size: 10pt;
+     background-color: white;
+     color: black;
+}
+div p{
+       height: 25px;
+       margin-top:10px;
+       margin-bottom:10px;
+}
+h1{
+   font-size: 18pt;
+   width:100%;
+}
+
+.centro{
+   text-align:center;
+}
+
+table{
+    font-size: 10pt;
+    width:100%;
+}
+th {
+   background-color: #BDFBCB;
+   font-size: 12pt;
+   color: black;
+   cell-spacing: 1px;
+}
+
+td{
+   background-color: #D0D0D0;
+   color: black;
+   cell-spacing: 1px;
+}
+
+a:link, a:visited{
+     color: #DDDDDD;
+     text-decoration: none;
+}
+
+a:hover, a:active{
+    color: yellow;
+    text-decoration: underline;
+}
+
+input {
+  border: 1px solid;
+}
+
+ul {
+  list-style:none;
+  margin: 0;
+  width:100%;
+  padding: 2px;
+}
+
+li.menuprinc{
+  background-color: rgb(35,65,20);
+  color: white;
+  border: 1px solid black;
+  padding: 0px;
+  margin:0px;
+  width:95%;
+}
+
+li.menusub{
+  background-color: rgb(71,132,43);
+  color: white;
+  border: 1px solid black;
+  padding: 0px;
+  margin:0px;
+  width:95%;
+}
+
+label.lblform {
+   float: left;
+   width: 100px
+}
+
+div.aviso {
+    position:absolute;
+    background-color: rgb(35,65,20);
+    color: white;
+    width:300px;
+    -moz-border-radius-topleft: 1.0em;
+    -moz-border-radius-topright: 1.0em;
+    -moz-border-radius-bottomleft: 1.0em;
+    -moz-border-radius-bottomright: 1.0em;
+    border-radius: 1.0em;
+    left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: -40px;
+    padding-top: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+
+#cabecalho{
+   position: absolute;
+   background-color: rgb(71,132,43);
+   color: white;
+   top:0;
+   left:0;
+   width:750px;
+   height: 100px;
+   text-align:center;
+}
+
+#menu{
+  position: absolute;
+  background-color: rgb(193,230,176);
+  color: black;
+  top: 100px;
+  height:400px;
+  left:0px;
+  width: 150px;
+  margin:0px;
+  padding-top: 50px;
+  border-bottom: 1px solid black;
+
+}
+
+#principal{
+  position: absolute;
+  background-color: white;
+  color: black;
+  top:100px;
+  padding-top: 50px;
+  padding-left: 5px;
+  left:150px;
+  height:400px;
+  border-bottom: 1px solid black;
+  text-align: center;
+  width:610px;
+}
+#rotulos{
+    background-color: rgb(35,65,20);
+    color: white;
+    width:150px;
+    -moz-border-radius-topleft: 1.0em;
+    -moz-border-radius-topright: 1.0em;
+    -moz-border-radius-bottomleft: 1.0em;
+    -moz-border-radius-bottomright: 1.0em;
+    border-radius: 1.0em;
+   position: absolute;
+   left:100px;
+   text-align: right;
+   margin-left: 10px;
+   padding:5px;
+  height: 300px;
+}
+
+#campos{
+   background-color: rgb(35,65,20);
+   color: white;
+    width:200px;
+    -moz-border-radius-topleft: 1.0em;
+    -moz-border-radius-topright: 1.0em;
+    -moz-border-radius-bottomleft: 1.0em;
+    -moz-border-radius-bottomright: 1.0em;
+    border-radius: 1.0em;
+   position: absolute;
+   left:260px;
+   text-align: left;
+   margin-left: 10px;
+   padding:5px;
+   height: 300px;
+   position: absolute;
+   
+  
+   
+}
