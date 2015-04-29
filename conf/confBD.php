@@ -1,15 +1,15 @@
 <?php
  function conn_mysql(){
 
-   	$servidor = 'localhost';
+   	$servidor = 'us-cdbr-azure-west-b.cleardb.com';
    
 	$porta = 3306;
    
-	$banco = "kennediyearbook";
+	$banco = "as_c8ada907de505d8";
    
-	$usuario = "pucminas";
+	$usuario = "b7750a8ba0d583";
    
-	$senha = "PucAtividade5";
+	$senha = "0b53e433";
    
 	try{
      
