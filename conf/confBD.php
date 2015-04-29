@@ -5,7 +5,7 @@
    
 	$porta = 3306;
    
-	$banco = "pucminas";
+	$banco = "kennediyearbook";
    
 	$usuario = "pucminas";
    
